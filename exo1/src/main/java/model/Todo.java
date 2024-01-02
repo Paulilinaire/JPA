@@ -10,8 +10,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="todo")
 public class Todo {
-
-
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -27,5 +26,9 @@ public class Todo {
     public Todo(String title, boolean status) {
         this.title = title;
         this.status = status;
+    }
+
+    public boolean getStatus() {
+        return status;
     }
 }

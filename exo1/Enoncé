@@ -21,4 +21,4 @@ L'application permettra à l'utilisateur d'effectuer les opérations suivantes :
 
 - Découpage de l'application en plusieurs couches : controller - dao - impl - model.
 - IHM dans le main.
-- Créer classe Tâche avec un titre et un boolean (completed or not completed)
+- Créer classe Tâche avec un id, un titre et un boolean (completed or not completed)
