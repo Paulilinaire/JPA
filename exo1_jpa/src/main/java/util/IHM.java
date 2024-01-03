@@ -70,7 +70,7 @@ public class IHM {
 
     private void showAllTodos(){
         System.out.println("##### Choix 2 #####");
-        _todoService.getAllTodos().forEach(t -> System.out.println(t));
+        _todoService.getAllTodos();
     }
 
 
