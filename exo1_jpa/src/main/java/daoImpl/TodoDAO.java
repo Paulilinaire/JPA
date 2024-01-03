@@ -44,7 +44,7 @@ public class TodoDAO extends BaseDAO<Todo> {
 
         Todo todo = new Todo();
         em.persist(todo);
-        System.out.println("todo n° " + todo.getId() + "créée");
+        System.out.println("todo n° " + todo.getId() + " créée");
         transac.commit();
         em.close();
         emf.close();
