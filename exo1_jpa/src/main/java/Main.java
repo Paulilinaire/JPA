@@ -1,5 +1,5 @@
 import service.TodoListService;
-import util.IHM;
+import controller.IHM;
 
 public class Main {
     public static void main(String[] args) {

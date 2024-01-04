@@ -21,7 +21,6 @@ public class TodoDAO extends BaseDAO<Todo> {
 
         System.out.println(todo);
         em.close();
-        emf.close();
         return todo;
     }
 
@@ -34,7 +33,6 @@ public class TodoDAO extends BaseDAO<Todo> {
             System.out.println(t);
         }
         em.close();
-        emf.close();
         return todoList;
     }
 
@@ -58,7 +56,7 @@ public class TodoDAO extends BaseDAO<Todo> {
 
         if (existingTodo != null) {
             existingTodo.setTitle(updatedTodo.getTitle());
-            existingTodo.setStatus(updatedTodo.getStatus());
+            existingTodo.setCompleted(updatedTodo.getStatus());
 
             em.merge(existingTodo);
 
@@ -70,7 +68,6 @@ public class TodoDAO extends BaseDAO<Todo> {
         } else {
             System.out.println("Todo non trouvée");
             em.close();
-            emf.close();
             return false;
         }
 
@@ -94,7 +91,6 @@ public class TodoDAO extends BaseDAO<Todo> {
             System.out.println("Todo non trouvée");
             transac.commit();
             em.close();
-            emf.close();
             return false;
         }
     }

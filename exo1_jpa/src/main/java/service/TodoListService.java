@@ -15,8 +15,11 @@ public class TodoListService implements ITodoService {
     }
 
     @Override
-    public Todo addTodo(String title, boolean status) throws PersistenceException {
-        Todo todo = new Todo(title, status);
+    public Todo addTodo(String title) throws PersistenceException {
+        Todo todo = new Todo();
+        todo.setTitle(title);
+        todo.setCompleted(false);
+
         todoDAO.add(todo);
         return todo;
     }

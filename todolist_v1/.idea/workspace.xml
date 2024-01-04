@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49c5fd07-e016-49d0-8793-ead133435ed9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/demo/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/demo/Demo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/demo/Demo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/entity/OneToMany/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/entity/OneToMany/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/entity/oneToOne/Adress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/entity/oneToOne/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/entity/oneToOne/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todolist_v2/src/exercice2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/BDD.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/BDD.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exo1_jpa/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exo1_jpa/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exo1_jpa/src/main/java/daoImpl/TodoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exo1_jpa/src/main/java/daoImpl/TodoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exo1_jpa/src/main/java/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exo1_jpa/src/main/java/model/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exo1_jpa/src/main/java/service/ITodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exo1_jpa/src/main/java/service/ITodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exo1_jpa/src/main/java/service/TodoListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exo1_jpa/src/main/java/service/TodoListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exo1_jpa/src/main/java/util/IHM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exo1_jpa/src/main/java/controller/IHM.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2aTtrpWEqhJSVKRAiLu5sAcN8i8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Administrateur/Desktop/JPA/todolist_v2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="todolist_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49c5fd07-e016-49d0-8793-ead133435ed9" name="Changes" comment="" />
+      <created>1704354598383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704354598383</updated>
+      <workItem from="1704354599419" duration="5031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

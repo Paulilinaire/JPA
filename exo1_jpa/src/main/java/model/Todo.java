@@ -17,18 +17,18 @@ public class Todo {
 
     private String title;
 
-    private boolean status;
+    private boolean completed;
 
     public Todo() {
 
     }
 
-    public Todo(String title, boolean status) {
+    public Todo(String title) {
         this.title = title;
-        this.status = status;
+        this.completed = false;
     }
 
     public boolean getStatus() {
-        return status;
+        return completed;
     }
-}
+    }

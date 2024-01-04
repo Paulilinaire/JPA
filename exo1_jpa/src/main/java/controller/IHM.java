@@ -1,4 +1,4 @@
-package util;
+package controller;
 
 import model.Todo;
 import service.ITodoService;
@@ -37,6 +37,7 @@ public class IHM {
             }
 
         } while (!choice.equals("0"));
+
     }
 
     private void menu() {
@@ -53,19 +54,9 @@ public class IHM {
         System.out.println("##### Choix 1 #####");
         System.out.println("Merci de saisir le titre de la tâche : ");
         String title = scanner.nextLine();
-        System.out.println("Merci de saisir le status de la tâche ('en cours' ou 'terminé'): ");
-        String statusInput = scanner.nextLine();
-        boolean status;
-        if (statusInput.equalsIgnoreCase("terminé")) {
-            status = true;
-        } else if (statusInput.equalsIgnoreCase("en cours")) {
-            status = false;
-        } else {
-            System.out.println("Statut non reconnu. Utilisation de la valeur par défaut (false).");
-            status = false;
-        }
 
-        Todo todo = _todoService.addTodo(title, status);
+
+        Todo todo = _todoService.addTodo(title);
     }
 
     private void showAllTodos(){

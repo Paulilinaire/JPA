@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface ITodoService {
 
-    public Todo addTodo(String title, boolean status);
+    public Todo addTodo(String title);
 
     public Todo getTodoById(long todoId);
 
