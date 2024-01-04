@@ -7,6 +7,7 @@ import javax.persistence.EntityTransaction;
 import org.example.dao.TaskDAO;
 import org.example.model.Task;
 import org.example.model.TaskInfo;
+import org.example.model.User;
 
 public class TaskDAOImpl implements TaskDAO {
 
@@ -17,11 +18,14 @@ public class TaskDAOImpl implements TaskDAO {
     }
 
     @Override
-    public boolean addTask(Task task) {
+    public boolean addTask(Task task, long userId) {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
         try {
             transaction.begin();
+            User user = entityManager.find(User.class, userId);
+            task.setUser(user);
+            user.getTaskList().add(task);
             entityManager.persist(task);
             transaction.commit();
             return true;
@@ -96,6 +100,13 @@ public class TaskDAOImpl implements TaskDAO {
         }
     }
 
+
+    @Override
+    public List<Task> getTasksByUserId(long userId) {
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
+        EntityTransaction transaction = entityManager.getTransaction();
+        // A FINIR
+    }
 
 
     public Task findTaskById(Long taskId) {

@@ -1,4 +1,4 @@
-package entity.OneToMany;
+package entity.oneToMany;
 
 
 import lombok.AllArgsConstructor;

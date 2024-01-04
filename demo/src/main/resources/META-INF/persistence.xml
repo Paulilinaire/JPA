@@ -8,6 +8,7 @@
         <description>Persistence pour demo JPA</description>
 
         <class>entity.Person</class>
+        <class>entity.manyToMany.Post</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>

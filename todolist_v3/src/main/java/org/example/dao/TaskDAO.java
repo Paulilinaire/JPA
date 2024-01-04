@@ -6,11 +6,13 @@ import java.util.List;
 
 public interface TaskDAO {
 
-    public boolean addTask(Task task);
+    public boolean addTask(Task task, long id);
 
     public List<Task> getAllTasks();
 
     public boolean deleteTask(Long taskId);
 
     public boolean markTaskAsCompleted(Long taskId);
+
+    public List<Task> getTasksByUserId (long userId);
 }

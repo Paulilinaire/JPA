@@ -8,6 +8,7 @@ public class Main {
 //        Demo1.createQuery();
 //        Demo2.main();
 //        Demo3.create();
-        Demo5.main();
+//        Demo5.main();
+        Demo6.main();
     }
 }

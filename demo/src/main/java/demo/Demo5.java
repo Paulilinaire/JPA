@@ -1,7 +1,7 @@
 package demo;
 
-import entity.OneToMany.Department;
-import entity.OneToMany.Employee;
+import entity.oneToMany.Department;
+import entity.oneToMany.Employee;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

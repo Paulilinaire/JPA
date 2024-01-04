@@ -1,7 +1,6 @@
-package entity.OneToMany;
+package entity.oneToMany;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 

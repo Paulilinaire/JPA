@@ -18,7 +18,6 @@ public class Task {
     private TaskInfo taskInfo;
 
     @ManyToOne
-    @JoinColumn(name="user_id")
     private User user;
 
     public Task() {
