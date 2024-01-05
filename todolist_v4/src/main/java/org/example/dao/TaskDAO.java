@@ -14,5 +14,11 @@ public interface TaskDAO {
 
     public boolean markTaskAsCompleted(Long taskId);
 
-    public List<Task> getTasksByPersonId (long personId);
+    public List<Task> getTasksByPersonId(Long personId);
+
+    public List<Task> getTasksByCategoryId(Long categoryId);
+
+    public void addTaskToCategory(Long taskId, Long categoryId);
+
+    public void removeTaskFromCategory(Long taskId, Long categoryId);
 }

@@ -5,7 +5,9 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import org.example.dao.TaskDAO;
+import org.example.model.Category;
 import org.example.model.Task;
+import org.example.model.TaskInfo;
 import org.example.model.Person;
 
 public class TaskDAOImpl implements TaskDAO {

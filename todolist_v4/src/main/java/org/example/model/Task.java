@@ -22,6 +22,8 @@ public class Task {
     @ManyToOne
     private Person person;
 
+    @ManyToMany(mappedBy = "taskList")
+    private List<Category> categories = new ArrayList<>();
 
     public Task() {
     }
