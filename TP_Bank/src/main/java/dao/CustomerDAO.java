@@ -3,7 +3,7 @@ package dao;
 import entity.Customer;
 
 public interface CustomerDAO {
-    public void addCustomer(Customer customer);
+    public boolean addCustomer(Customer customer, long agencyId);
 
     public void deleteCustomer(Long id);
 

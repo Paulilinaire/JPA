@@ -92,7 +92,7 @@ public class ToDoListAppConsole {
                 default:
                     System.out.println("Choix invalide. Veuillez réessayer.");
             }
-        } while (choice != 7);
+        } while (choice != 13);
     }
 
 

@@ -4,7 +4,7 @@ import entity.Account;
 
 public interface AccountDAO {
 
-    public void addAccount(Account account);
+    public boolean addAccount(Account account, long id);
 
     public void deleteAccount(Long id);
 
