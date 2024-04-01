@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -23,7 +24,10 @@ public class Customer {
 
     private String firstName;
 
-    private Date birthDate;
+    private LocalDate birthDate;
+
+    @ManyToOne
+    private Agency agency;
 
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name="customer_account",
@@ -34,7 +38,7 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(String lastName, String firstName, Date birthDate) {
+    public Customer(String lastName, String firstName, LocalDate birthDate) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.birthDate = birthDate;
